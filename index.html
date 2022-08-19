@@ -1,43 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Template project</title>
-  <!-- <link rel="stylesheet" href="./css/normalize.css"> -->
-  <!-- <link rel="stylesheet" href="./css/main.css"> -->
-  <link rel="stylesheet" href="./css/main.min.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Template project</title>
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <!-- <link rel="stylesheet" href="./css/main.min.css"> -->
+  </head>
+  <body>
+    <!-- Site header start -->
+    <header class="site-header">
+      <div class="container">
+        <div class="site-header__inner">
+          <a class="logo" href="./index.html">
+            <img
+              class="logo__img"
+              src="./images/logo.svg"
+              alt="logo-img"
+              width="170"
+              height="33"
+            />
+          </a>
 
+          <nav class="sitenav">
+            <ul class="sitenav__list">
+              <li class="sitenav__item">
+                <a class="sitenav__link" href="#">About</a>
+              </li>
+              <li class="sitenav__item">
+                <a class="sitenav__link" href="#">Services</a>
+              </li>
+              <li class="sitenav__item">
+                <a class="sitenav__link" href="#">Projects</a>
+              </li>
+              <li class="sitenav__item">
+                <a class="contact-btn" href="#">CONTACT</a>
+              </li>
+            </ul>
+          </nav>
+          <button class="navbar-btn"></button>
+        </div>
+      </div>
+    </header>
+    <!-- Site header finish -->
 
-  <!-- Site header start -->
-  <header class="site-header">
-    <!-- Your header code here -->
-  </header>
-  <!-- Site header finish -->
+    <!-- Site main start -->
 
-  <!-- Site main start -->
+    <main class="site-main">
+      <!-- Hero section start -->
+      <section class="hero">
+        <div class="hero__inner">
+          <h1 class="hero__title">We are creatives</h1>
+        </div>
+      </section>
+      <!-- Hero section finish -->
 
-  <main class="site-main">
+      <!-- Feature -->
+      <section class="feature">
+        <div class="big-container">
+          <div class="feature__inner">
+            <ul class="feature__list">
+              <li class="feature__item">
+                <div class="feature__info info-feature">
+                  <h2 class="info-feature__title">Transform your brand</h2>
+                  <p class="info-feature__text">
+                    We are a full-service creative agency specializing in
+                    helping brands grow fast. Engage your clients through
+                    compelling visuals that do most of the marketing for you.
+                  </p>
+                  <a class="info-feature__link link-info-yellow" href="#"
+                    >LEARN MORE
+                  </a>
+                </div>
+                <img
+                  class="feature__img"
+                  src="./images/egg.jpg"
+                  srcset="./images/egg.jpg 1x, ./images/egg@2x.jpg 2x"
+                  alt="feature image"
+                  width="720"
+                  height="600"
+                />
+              </li>
+              <li class="feature__item">
+                <div class="feature__info info-feature">
+                  <h2 class="info-feature__title">
+                    Stand out to the right audience
+                  </h2>
+                  <p class="info-feature__text">
+                    Using a collaborative formula of designers, researchers,
+                    photographers, videographers, and copywriters, we’ll build
+                    and extend your brand in digital places.
+                  </p>
+                  <a class="info-feature__link link-info-red" href="#"
+                    >LEARN MORE
+                  </a>
+                </div>
+                <img
+                  class="feature__img"
+                  src="./images/pink-glass.jpg"
+                  srcset="
+                    ./images/pink-glass.jpg    1x,
+                    ./images/pink-glass@2x.jpg 2x
+                  "
+                  alt="feature image"
+                  width="720"
+                  height="600"
+                />
+              </li>
+              <li class="feature__item">
+                <div class="feature__info info-feature info-fruit">
+                  <h2 class="info-fruit__title">Photography</h2>
+                  <p class="info-fruit__text">
+                    Increase your credibility by getting the most stunning,
+                    high-quality photos that improve your business image.
+                  </p>
+                </div>
+                <div class="feature__info info-feature info-fruit">
+                  <h2 class="info-fruit__title">Graphic Design</h2>
+                  <p class="info-fruit__text">
+                    Great design makes you memorable. We deliver artwork that
+                    underscores your brand message and captures potential
+                    clients’ attention.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- /Feature -->
+    </main>
 
-    <!-- Hero section start -->
-    <section class="hero">
-      <!-- Your hero section code here -->
-    </section>
-    <!-- Hero section finish -->
+    <!-- Site main finish -->
 
-  </main>
+    <!-- Site footer start -->
 
-  <!-- Site main finish -->
+    <footer class="site-footer">
+      <!-- Your footer code here -->
+    </footer>
+    <!-- Site footer finish -->
+    <nav class="navbar">
+      <ul class="sitenav__list">
+        <li class="sitenav__item">
+          <a class="sitenav__link" href="#">About</a>
+        </li>
+        <li class="sitenav__item">
+          <a class="sitenav__link" href="#">Services</a>
+        </li>
+        <li class="sitenav__item">
+          <a class="sitenav__link" href="#">Projects</a>
+        </li>
+        <li class="sitenav__item">
+          <a class="contact-btn" href="#">CONTACT</a>
+        </li>
+      </ul>
+    </nav>
 
-  <!-- Site footer start -->
-
-  <footer class="site-footer">
-    <!-- Your footer code here -->
-  </footer>
-
-  <!-- Site footer finish -->
-</body>
+    <script src="./js/main.js"></script>
+  </body>
 </html>
